@@ -1,0 +1,219 @@
+:root {
+  --dark-color: #2c3e50;
+}
+nav {
+  background-color: var(--dark-color);
+}
+.navbar-brand {
+  color: #fff;
+  font-size: 1.75em !important;
+  line-height: 3rem;
+}
+.nav-link {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
+}
+.nav-link:hover{
+  color: #1abc9c;
+}
+.bg-green{
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+.bg-green:hover,.bg-green:focus{
+  color: #fff;
+}
+footer {
+  background-color: var(--dark-color);
+}
+footer h4 {
+  font-size: 1.5rem;
+  line-height: 28.8px;
+  font-weight: 700;
+}
+footer p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.foot {
+  background-color: #1a252f;
+}
+.btn-social {
+  border-radius: 100%;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+.w-90 {
+  width: 90%;
+}
+.w-15 {
+  width: 15%;
+}
+
+header {
+  background-color: #1abc9c;
+}
+header h1 {
+  font-size: 64px;
+}
+header i {
+  position: relative;
+}
+
+header .star .after {
+  width: 150px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+header .star .before {
+  width: 150px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.modal h1, .portfolio h1 {
+  font-size: 48px;
+  color: var(--dark-color);
+}
+.portfolio i {
+  position: relative;
+  color: var(--dark-color);
+}
+.portfolio .star .after {
+  width: 150px;
+  height: 4px;
+  background-color: var(--dark-color);
+  border-radius: 2px;
+}
+
+.portfolio .star .before {
+  width: 150px;
+  height: 4px;
+  background-color: var(--dark-color);
+  border-radius: 2px;
+}
+.modal i {
+  position: relative;
+  color: var(--dark-color);
+}
+.modal .star .after {
+  width: 150px;
+  height: 4px;
+  background-color: var(--dark-color);
+  border-radius: 2px;
+}
+.btn-close {
+  right: 20px;
+  top: 20px;
+}
+
+.modal .star .before {
+  width: 150px;
+  height: 4px;
+  background-color: var(--dark-color);
+  border-radius: 2px;
+}
+.portfolio .item {
+  cursor: pointer;
+}
+.portfolio .layer {
+  background-color: rgba(26, 188, 156, 0.9);
+  top: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.portfolio .item:hover .layer {
+  top: 0;
+}
+.layer-container {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  display: none;
+}
+.portfolio .layer-item {
+  background-color: #fff;
+  width: 70%;
+  margin: auto;
+}
+.modal-dialog {
+  max-width: 700px;
+}
+body {
+  position: relative;
+}
+.modal-body{
+  padding: 50px;
+}
+.modal-footer button {
+  background-color: #1abc9c;
+}
+.modal-footer button:hover {
+  background-color: #159a80;
+}
+.portfolio .layer-item .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #1abc9c;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.portfolio .layer-item .close:hover {
+  color: #159a80;
+}
+.about {
+  background-color: #1abc9c;
+  color: #fff;
+}
+.about .star .after {
+  width: 150px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.about .star .before {
+  width: 150px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.about h1 {
+  font-size: 48px;
+  line-height: 40px;
+  font-weight: 700;
+}
+.about p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.contact .button {
+  background-color: #1abc9c;
+  color: #fff;
+}
+.contact .button:hover {
+  background-color: #159a80;
+  color: #fff;
+}
+label {
+  opacity: 0;
+}
+#alert{
+  display: none;
+}
